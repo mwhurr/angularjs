@@ -1,0 +1,19 @@
+from root cwd
+browser-sync start --server --files="**/*"
+
+
+C:\Users\mwhur\AngularJS\angularjs>browser-sync start --server --directory --files "**./*, *.html"
+
+browser-sync start --server --directory --cwd "C:\Users\mwhur\AngularJS\angularjs" --index index.html --files "**/*"
+
+git status
+git add .
+  . for all files in this directory
+git status
+  green ready to be committed
+git commit -m "next version of index.html and new config file"
+  commit to local repository
+git status
+  will show that your branch is ahead of the origin/ master by 1 commit
+git push
+  to upload to repository
